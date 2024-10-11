@@ -1,0 +1,19 @@
+spring:
+  application:
+    name:
+      brokage-firm-backend
+  datasource:
+    url: jdbc:postgresql://localhost:5432/brokage_firm
+    username: user
+    password: pass
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  secret: ${JWT_SECRET:thisisexamplethisisexamplethisisexamplethisisexamplethisisexamplethisisexamplethisisexamplethisisexample}
+
+admin:
+  username: admin
+  password: admin
